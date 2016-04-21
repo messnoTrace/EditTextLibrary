@@ -1,4 +1,4 @@
-package com.notrace.library.utils;
+package com.notrace.library;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,8 +11,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
-
-import com.notrace.library.TextWatch;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
