@@ -4,6 +4,30 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 group= 'com.github.messnoTrace'
 
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'edittextlibrary'
+
+    publishedGroupId = 'com.notrace.library'
+    libraryName = 'EditextLibrary'
+    artifact = 'library'
+
+    libraryDescription = 'A wrapper Library using okhttp and gson to make doing http operation much easier.'
+
+    siteUrl = 'https://github.com/messnoTrace/EditTextLibrary'
+    gitUrl = ' https://github.com/messnoTrace/EditTextLibrary.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'messnotrace'
+    developerName = 'notrace'
+    developerEmail = 'cy_nforget@126.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -27,3 +51,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle'
