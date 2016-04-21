@@ -1,4 +1,6 @@
-# PhoneEditText
+# EdittextLibrary   
+
+##PhoneEditText
 一个电话号码格式化的输入框    
 用法：    
  project的build.gradle      
@@ -16,7 +18,7 @@ module的build.gradle
 
 
    	dependencies {
-	        compile 'com.github.messnoTrace:PhoneEditText:v1.0'
+	     compile 'com.github.messnoTrace:EditTextLibrary:v1.0'
 	}   
 	
 	
