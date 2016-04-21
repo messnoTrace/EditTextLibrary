@@ -27,7 +27,7 @@ module的build.gradle
 	一个电话号码格式化的输入框       
 	
 	
-	    <com.notrace.library.PhoneEdittext
+	<com.notrace.library.PhoneEdittext
         android:id="@+id/editTextMobileNo"
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -44,7 +44,12 @@ module的build.gradle
         android:singleLine="true" />
         
         
-        	    <com.notrace.library.IDCardEditText
+        
+    身份证号码输入框
+    
+    
+    
+      <com.notrace.library.IDCardEditText
         android:id="@+id/editTextMobileNo"
         android:layout_width="match_parent"
         android:layout_height="30dp"
